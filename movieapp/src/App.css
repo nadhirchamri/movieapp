@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+  background-color: #423c3c;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #4d4d4d;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.mvcard {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  box-shadow: rgba(211, 205, 205, 0.25) 0px 54px 55px,
+    rgba(230, 227, 227, 0.12) 0px -12px 30px,
+    rgba(226, 221, 221, 0.12) 0px 4px 6px,
+    rgba(223, 219, 219, 0.17) 0px 12px 13px,
+    rgba(209, 204, 204, 0.09) 0px -3px 5px;
+  margin-left: 50px;
+  margin-right: 38px;
+  margin-bottom: 38px;
+  margin-top: 40px;
+  color: azure;
+  width: 70%;
+}
+.mvcards:hover {
+  box-shadow: 10px 5px 5px rgb(129, 127, 127);
+}
+.image {
+  margin-top: 35px;
+  width: 300px;
+  padding-left: 2%;
+  border-radius: 10px 10px 10px 10px;
+}
+.image:hover{
+  box-shadow: 7px 7px rgb(204, 195, 197) ;
+}
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  background-color: #c5ba58 !important;
+}
+.modal{
+  margin-top: 10px;
+}
+.enzel{
+color: #f4f9fa;
+background-color: rgb(111, 121, 153);
+cursor: pointer;
+border-radius: .9em;
+}
+
+.fazza{
+  background-color: #f5e3e3;
+  color: #837a38;
+ padding: 15px;
+}
+.submit{
+  color: #837a38;
+  background-color: #fcf5b7;
+  border-radius: 0.5em;
+  padding: 7px;
+}
+li{
+  list-style-type: none;
+  margin: 7px;
+
+}
+.open{
+  border-radius: 5em;
+  
+  background-color: rgb(165, 158, 117);
+}
+
