@@ -18,7 +18,11 @@ const MovieList = ({ movies, text, rate, fasakhMovie }) => {
           <MovieCard movie={movie} key={movie.id} fasakhMovie={fasakhMovie} />
         ))
       ) : (
-        <h1>There is nomovie</h1>
+        <h1 style={{
+          color: "white",
+         
+           
+         }}>There is no movie</h1>
       )}
     </div>
   );

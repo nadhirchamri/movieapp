@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies&display=swap");
+.cardmui {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.MuiPaper-root {
+  display: inline-table;
+}
+h1 {
+  font-size: 40px;
+  margin-top: -10px;
+  color: #1098ad;
+  font-family: "Rowdies", cursive;
+}
+img {
+  width: 350px !important;
+  height: 350px !important;
+}
