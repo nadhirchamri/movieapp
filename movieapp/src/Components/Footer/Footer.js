@@ -7,7 +7,10 @@ const Footer = () => {
      
    }}>
      <hr/> 
+     <br/>
+    
        © 2022 Copyright
+     
   </div>;
 };
 

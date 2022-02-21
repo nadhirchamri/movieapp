@@ -70,7 +70,8 @@
   background-color: #c5ba58 !important;
 }
 .modal{
-  margin-top: 10px;
+  margin-top: 15px;
+  
 }
 .enzel{
 color: #f4f9fa;
@@ -99,5 +100,12 @@ li{
   border-radius: 5em;
   
   background-color: rgb(165, 158, 117);
+  padding: 2px;
+  margin-left: 570px;
+  margin-right: 570px;
+
 }
 
+hr{
+  margin-top: 40px;
+}

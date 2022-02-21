@@ -7,7 +7,11 @@ const MovieCard = ({ movie, fasakhMovie }) => {
       <img className="image" src={movie.image} alt={movie.name} />
       <br />
       <h1 className="mvcard">{movie.name}</h1>
-      <p>{movie.description}</p>
+      <p style={{
+    color: "white",
+   
+     
+   }}>{movie.description}</p>
       <Rating name="read-only" value={movie.rating} readOnly />
       <button className="enzel" onClick={() => fasakhMovie(movie.id)}>X</button>
     </div>
